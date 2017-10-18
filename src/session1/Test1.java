@@ -53,10 +53,10 @@ public class Test1 {
 
   
   @Test (groups = {"Smoke"})
-  @Parameters({"longdate"}) 
-  public void Test3(String longdate) throws ParseException {
+  @Parameters({"TestDate"}) 
+  public void Test3(String TestDate) throws ParseException {
 	  SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
-	  java.util.Date date = sdf.parse(longdate);
+	  java.util.Date date = sdf.parse(TestDate);
 	 String stringdate=sdf.format(date);
 	 System.out.println(stringdate);
   }
