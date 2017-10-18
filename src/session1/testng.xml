@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+   <test name="Test">
+   
+      <parameter name="longdate" value="2017-10-18"/> 
+      
+      <classes>
+         <class name="session1.Test1" />
+      </classes>
+      
+   </test>
+</suite>
