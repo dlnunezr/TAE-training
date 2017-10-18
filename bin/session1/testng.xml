@@ -4,7 +4,7 @@
 <suite name="Suite1">
    <test name="Test">
    
-      <parameter name="longdate" value="2017-10-18"/> 
+      <parameter name="TestDate" value="2017-10-19"/> 
       
       <classes>
          <class name="session1.Test1" />
